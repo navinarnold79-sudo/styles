@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion World - Order</title>
+    <link rel="stylesheet" href="fashion.css">
+</head>
+
+<body>
+
+<header>
+    <h2>FASHION WORLD</h2>
+
+    <nav>
+        <a href="Fashionworld.html">Home</a>
+        <a href="collection.html">Collection</a>
+        <a href="order.html">Order</a>
+    </nav>
+</header>
+
+<section class="order-section">
+
+    <div class="order-box">
+
+        <h1>PLACE YOUR ORDER</h1>
+        <p>Discover Your Perfect Style</p>
+
+        <form action="success.html">
+
+            <label>Customer Name</label>
+            <input type="text" placeholder="Enter Your Name" required>
+
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter Email" required>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter Phone Number"
+                   pattern="[0-9]{10}" required>
+
+            <label>Select Category</label>
+            <select required>
+                <option value="">Choose Category</option>
+                <option>Men's Fashion</option>
+                <option>Women's Fashion</option>
+                <option>Shoes</option>
+                <option>Watches</option>
+            </select>
+
+            <label>Select Product</label>
+            <select required>
+                <option value="">Choose Product</option>
+                <option>Men's Shirt</option>
+                <option>Women's Dress</option>
+                <option>Denim Jeans</option>
+                <option>Casual T-Shirt</option>
+                <option>Lunawolf Shoes</option>
+                <option>Loafer</option>
+                <option>Polo Shoe</option>
+                <option>Formal Shoes</option>
+                <option>Titan Watch</option>
+                <option>Rolex Watch</option>
+                <option>Rose Gold Watch</option>
+            </select>
+
+            <label>Select Size</label>
+            <select required>
+                <option value="">Choose Size</option>
+                <option>XS</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>UK 6</option>
+                <option>UK 7</option>
+                <option>UK 8</option>
+                <option>UK 9</option>
+                <option>UK 10</option>
+                <option>Free Size</option>
+            </select>
+
+            <label>Quantity</label>
+            <input type="number" min="1" value="1" required>
+
+            <label>Delivery Address</label>
+            <textarea placeholder="Enter Your Address"
+                      required></textarea>
+
+            <label>Payment Method</label>
+            <select required>
+                <option value="">Choose Payment</option>
+                <option>Cash On Delivery</option>
+                <option>UPI</option>
+            </select>
+
+            <button type="submit">CONFIRM ORDER</button>
+
+        </form>
+
+        <div class="pdf-area">
+            <h3>FASHION CATALOGUE</h3>
+            <p>Explore Our Exclusive Collection</p>
+
+            <a href="files/Fashion_Style_.pdf" download>
+                📄 Download Catalogue
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<div class="music-player">
+    <span>🎵 Fashion Music</span>
+    <audio controls loop>
+        <source src="files/videoplayback.weba" type="audio/mpeg">
+    </audio>
+</div>
+
+
+<!-- CONTACT DETAILS -->
+
+<section class="contact-section">
+
+    <h2>CONTACT US</h2>
+    <p>We are always ready to help you!</p>
+
+    <div class="contact-details">
+
+        <div class="contact-box">
+            <h3>📞 Contact Number</h3>
+            <p>+91 8438731923</p>
+        </div>
+
+        <div class="contact-box">
+            <h3>📍 Our Address</h3>
+            <p>Fashion World, Gandhipuram, Coimbatore, Tamil Nadu</p>
+        </div>
+
+        <div class="contact-box">
+            <h3>✉ Email Address</h3>
+            <p>fashionworld@gmail.com</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2027 FASHION WORLD | All Rights Reserved</p>
+</footer>
+</body>
+</html>
